@@ -1,0 +1,53 @@
+.foot-nav{
+
+
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+
+     
+      
+        
+      &-card{
+        &-span-1{
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            font-weight: 900;
+
+           
+          
+      }
+      &-span-2{
+        margin-left: 20px;
+        width: 100px;
+    }
+
+           
+            
+        }
+        &-card-2{
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+
+            &-text{
+                &-mini{
+                    color: grey;
+                }
+            }
+        }
+       
+    }
+     &__head{
+            width: 1486px;
+            height: 70px;
+            background: rgba(0, 143, 118, 1);
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            padding-top: 20px;
+
+        }
+}

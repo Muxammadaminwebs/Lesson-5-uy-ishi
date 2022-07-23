@@ -1,0 +1,39 @@
+.section-3{
+    .radio{
+        width: 1000px;
+       
+        display: flex;
+       justify-content: space-between;
+       margin: 190px  auto;
+    
+           &__card{
+               width: 300px;  
+               display: flex;
+               height: 300px;
+                 
+               &-texts{
+                margin-left: 25px;
+                margin-top: -19px;
+
+
+                &-title{
+                    font-size: 29px;
+                    font-weight: 900;
+                }
+                &-text{
+                    color: grey;
+                }
+               }
+       
+       
+              
+           }
+       }
+    
+
+
+    
+}
+
+
+

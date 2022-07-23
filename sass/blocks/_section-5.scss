@@ -1,0 +1,41 @@
+
+.about-us{
+   margin-top: 100px;
+  &__text{
+   
+    &-title{
+      font-size: 18px;
+      font-weight: 700;
+
+    }
+    &-texts{
+      color: grey;
+    }
+  }
+  &__cards{
+    display: flex;
+    justify-content: space-between;
+
+    &-card-1{
+      background-image: url("../images/img-1.png");
+      background-size: contain;
+      height: 500px;
+      width: 370px;
+      background-repeat: no-repeat;
+    }
+    &-card-2{
+      background-image: url("../images/img-2.png");
+      background-size: contain;
+      height: 500px;
+      width: 370px;
+      background-repeat: no-repeat;
+    }
+    &-card-3{
+      background-image: url("../images/img-3.png");
+      background-size: contain;
+      height: 500px;
+      width: 370px;
+      background-repeat: no-repeat;
+    }
+  }
+}
